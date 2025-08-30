@@ -18,10 +18,12 @@ export const metadata: Metadata = {
   description: "First NextJS"
 };
 
-const RootLayout: React.FC<Readonly<{
-  children: React.ReactNode
-}>> = (props) => {
-  const {children} = props;
+const RootLayout: React.FC<LayoutProps<'/'>> = ({
+  children,
+  params
+}) => {
+
+  
 
   return (
     <html>
