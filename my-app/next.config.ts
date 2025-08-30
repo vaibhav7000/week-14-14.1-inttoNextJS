@@ -5,3 +5,6 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+
+// this file is used to manage the configuration nextjs server configuration
